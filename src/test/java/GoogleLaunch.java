@@ -12,6 +12,7 @@ public class GoogleLaunch
 	{
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver =new ChromeDriver(); 
+		driver.get(null);
 		//driver.get("https://docs.microsoft.com/en-us/troubleshoot/developer/visualstudio/cpp/language-compilers/start-internet-browser");
 		driver.get(null);
 

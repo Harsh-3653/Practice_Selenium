@@ -1,4 +1,4 @@
-package SSL;
+package Miscelleanous;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
