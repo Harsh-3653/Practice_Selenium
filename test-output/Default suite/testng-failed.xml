@@ -3,11 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Dropdown.Dynamic_Dropdown">
+      <class name="TestNg_Annotations.Test_1">
         <methods>
-          <include name="Dropdown_d"/>
+          <include name="beforetest"/>
+          <include name="afterblock"/>
+          <include name="beforemethod"/>
+          <include name="insurance"/>
+          <include name="aftermethod"/>
+          <include name="PLoan"/>
         </methods>
-      </class> <!-- Dropdown.Dynamic_Dropdown -->
+      </class> <!-- TestNg_Annotations.Test_1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
